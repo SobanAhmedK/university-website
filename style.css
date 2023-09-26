@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.left {
+
+    display: inline;
+    left: 12px;
+    position: absolute;
+    top: 8px;
+    font-family: tektur;
+    WIDTH: 81PX;
+    height: 81px;
+    left: 23px;
+}
+
+.mid {
+
+    width: 30%;
+    margin: 8px auto;
+    width: 600px;
+}
+
+
+.right {
+    font-family: tektur;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    font-size: 12px;
+}
+
+#lang .languages {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: purple;
+    color: white;
+    border: 1px solid black;
+    border-top: none;
+}
+
+#lang:hover .languages {
+    display: block;
+
+}
+
+#lang .language {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#lang .language:hover {
+    color: black;
+}
+
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+
+}
+
+.navbar li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 32px 20px;
+    font-size: 20px;
+    color: purple;
+
+    font-weight: bold;
+}
+
+
+.navbar li a:hover {
+
+    color: white;
+    font-size: 15px;
+
+}
+.header_bg .navbar li a:hover{
+    color: black;
+}
+
+.left img {
+    width: 50px;
+    position: relative;
+    left: 15px;
+    padding: 0px 2px;
+
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(128, 0, 90);
+    font-weight: bold;
+}
+.header_bg {
+    background-color: white;
+     height: 100px;
+     
+}
+.header_bg .right {margin-top: 10px;}
+.header_bg .left {margin-top: 10px;}
+.header_bg .navbar {margin-top: 50px;}
+
+.btn {
+
+    display: inline-block;
+    color: purple;
+    font-weight: bold;
+    margin: 0px 5px;
+    border: black solid 2px;
+    border-radius: 9px;
+    padding: 4px;
+}
+
+
+
+.btn:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 105px 174px;
+    padding: 26px 26px;
+    border-radius: 30px;
+    width: 40%;
+}
+
+.container h1 {
+    color: purple;
+    text-align: center;
+    font-family: tektur;
+}
+
+.form_group input {
+    text-align: center;
+    display: block;
+    width: 365px;
+    padding: 4px;
+    border: 2px solid white;
+    margin: 9px auto;
+    border-radius: 20px;
+    /* background-color: black; */
+    font-family: tektur;
+    color: black;
+}
+
+.submit {
+    padding: 11px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 14px;
+    color: white;
+    background-color: purple;
+    position: relative;
+    left: 172px;
+    margin-top: 4px;
+    font-family: tektur;
+}
+
+.submit:hover {
+    background-color: white;
+    color: purple;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 15px 15px;
+    margin-top: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.animated-heading {
+    opacity: 0;
+    font-size: 30px;
+    animation: fadeInFontSize 2s ease forwards;
+  }
+  
+  @keyframes fadeInFontSize {
+    0% {
+      opacity: 0;
+      font-size: 20px;
+    }
+    100% {
+      opacity: 1;
+      font-size: 30px;
+    }
+  }
+
+
+  .animated-logo {
+    animation: rotate 2.5s ease-in-out infinite both;
+    animation-delay: 1s;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .primary-h{
+   text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  #departments{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    align-items:center;
+    justify-content: center;
+   
+  
+  }
+
+  .grid-item{
+    border: 2px solid white;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+  }
+
+  .grid-item img{
+   
+      height: 200px;
+      width: 200px;
+      margin-left:  70px;
+      margin-bottom: 10px;
+
+      
+  }
+
+  .grid-item .primary-h{
+    margin-bottom: 10px;
+  }
+
+  .grid-item p {
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .container .GPA{
+    color: white;
+  }
+
+
+  #contact-section {
+    padding-top: 12px;
+}
+
+#contact-box button {
+
+    width: 96%;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+}
+
+
+
+#contact-section {
+  position: relative;
+ 
+}
+
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+  width: 96%;
+  padding: 0.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  margin-top: 17px;
+
+}
+
+#contact-box form {
+  width: 40%;
+  padding: 18px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: tektur;
+  color: white;
+}
+
+.p_heading {
+  margin: 20px 20px;
+  color: white;
+  font-family: tektur;
+  text-align: center;
+  font-size: 1.8rem;
+}
